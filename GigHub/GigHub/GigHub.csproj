@@ -190,6 +190,10 @@
     <Compile Include="Migrations\202003301657511_PopulateGEnresTable.Designer.cs">
       <DependentUpon>202003301657511_PopulateGEnresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003311654554_AddforeignKeyPropertiesToGi.cs" />
+    <Compile Include="Migrations\202003311654554_AddforeignKeyPropertiesToGi.Designer.cs">
+      <DependentUpon>202003311654554_AddforeignKeyPropertiesToGi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -287,6 +291,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003301657511_PopulateGEnresTable.resx">
       <DependentUpon>202003301657511_PopulateGEnresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003311654554_AddforeignKeyPropertiesToGi.resx">
+      <DependentUpon>202003311654554_AddforeignKeyPropertiesToGi.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
